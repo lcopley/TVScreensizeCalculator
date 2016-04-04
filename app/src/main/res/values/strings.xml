@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TV Screensize Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="pickasize">Pick a screen size</string>
+    <string name="pickaresolution">Pick a resolution</string>
+    <string name="dontshowagain">Don\'t show this again</string>
+    <string name="howtouse">How to use this app</string>
+    <string name="close">Close</string>
+    <string name="privacy">Privacy</string>
+
+    <string-array name="resolutions">
+        <item>576 </item>
+        <item>720</item>
+        <item>1080</item>
+        <item>4000</item>
+    </string-array>
+    <string-array name="dimensions">
+        <item>32-inch</item>
+        <item>37-inch</item>
+        <item>40-inch</item>
+        <item>42-inch</item>
+        <item>46-inch</item>
+        <item>50-inch</item>
+        <item>55-inch</item>
+        <item>65-inch</item>
+    </string-array>
+    <string-array name="distances576">
+        <item>8-feet</item>
+        <item>10-feet</item>
+        <item>10.5-feet</item>
+        <item>11-feet</item>
+        <item>12-feet</item>
+        <item>13-feet</item>
+        <item>15-feet</item>
+        <item>17-feet</item>
+    </string-array>
+    <string-array name="distances720">
+        <item>6-feet</item>
+        <item>7-feet</item>
+        <item>8-feet</item>
+        <item>8-feet</item>
+        <item>9-feet</item>
+        <item>10-feet</item>
+        <item>11.5-feet</item>
+        <item>13-feet</item>
+    </string-array>
+    <string-array name="distances1080">
+        <item>4-feet</item>
+        <item>4.5-feet</item>
+        <item>5-feet</item>
+        <item>5.5-feet</item>
+        <item>6-feet</item>
+        <item>6.5-feet</item>
+        <item>7.5-feet</item>
+        <item>8.5-feet</item>
+    </string-array>
+</resources>
+
+
