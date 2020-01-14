@@ -12,7 +12,7 @@
         <item>576 </item>
         <item>720</item>
         <item>1080</item>
-        <item>4000</item>
+        <item>4K</item>
     </string-array>
     <string-array name="dimensions">
         <item>32-inch</item>
