@@ -32,7 +32,7 @@ public class ScreenSize extends AppCompatActivity {
     String[] distances576 = new String[] {"8 feet", "10 feet", "10.5 feet", "11 feet", "12 feet", "13 feet", "15 feet", "17 feet"};
      String[] distances720 = new String[] {"6 feet", "7 feet", "8 feet", "7 feet", "9 feet", "10 feet", "11.5 feet", "13 feet"};
     String[] distances1080 = new String[] {"4 feet", "4.5 feet", "5 feet", "5.5 feet", "6 feet", "6.5 feet", "7.5 feet", "8.5 feet"};
-
+String[] distances4K = new String[] {"4 feet", "4.5 feet", "5 feet", "5.5 feet", "6 feet", "6.5 feet", "7.5 feet", "8.5 feet"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,7 +88,7 @@ public class ScreenSize extends AppCompatActivity {
                     seating_distance = distances1080[dimension];
                 }
                 if (resolution == 3) {
-                    seating_distance = "You can afford that? Do your own math!";
+                    seating_distance = distances4K[dimension];
                 }
                 final TextView textViewToChange = (TextView) findViewById(R.id.textView3);
                 textViewToChange.setText("Closest seating: "+ seating_distance);
